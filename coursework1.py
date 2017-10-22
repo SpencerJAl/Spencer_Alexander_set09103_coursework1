@@ -26,13 +26,13 @@ def init(app):
    except:
      print "Could not get config details: ", config.location
 
-@app.route("/vincent")
+@app.route("/countyr")
 def vincent():
- return redirect(url_for('Gogh'))
+ return redirect(url_for('country'))
 
-@app.route("/Gogh")
+@app.route("/country")
 def Gogh():
- return render_template('Gogh.html')
+ return render_template('country.html')
 
 
 @app.errorhandler(404)

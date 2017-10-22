@@ -39,33 +39,40 @@ $
 "2	LINE	0
 	
 ""-	CHAR	0
-	c
+	a
 
 # File marks:
-'0  7  64  ~/templates/index.html
-'1  2  1  ~/static/cw1.js
-'2  13  29  ~/templates/index.html
-'3  2  25  ~/static/style.css
-'4  3  37  ~/templates/404.html
-'5  1  0  ~/templates/Gogh.html
-'6  35  20  ~/coursework1.py
-'7  31  26  ~/coursework1.py
-'8  5  35  ~/templates/Gogh.html
-'9  33  11  ~/coursework1.py
+'0  26  48  ~/templates/index.html
+'1  1  4  ~/static/style.css
+'2  31  0  ~/templates/index.html
+'3  1  0  ~/templates/index.html
+'4  4  10  ~/static/style.css
+'5  6  19  ~/static/style.css
+'6  32  0  ~/templates/index.html
+'7  8  0  ~/static/style.css
+'8  36  0  ~/coursework1.py
+'9  47  7  ~/coursework1.py
 
 # Jumplist (newest first):
--'  7  64  ~/templates/index.html
+-'  26  48  ~/templates/index.html
 -'  1  0  ~/templates/index.html
+-'  1  4  ~/static/style.css
+-'  31  0  ~/templates/index.html
+-'  4  10  ~/static/style.css
+-'  6  19  ~/static/style.css
+-'  32  0  ~/templates/index.html
+-'  8  0  ~/static/style.css
+-'  36  0  ~/coursework1.py
+-'  1  0  ~/coursework1.py
+-'  47  7  ~/coursework1.py
+-'  9  64  ~/templates/index.html
 -'  2  1  ~/static/cw1.js
 -'  1  0  ~/static/cw1.js
--'  13  29  ~/templates/index.html
--'  2  25  ~/static/style.css
--'  1  0  ~/static/style.css
+-'  17  29  ~/templates/index.html
 -'  3  37  ~/templates/404.html
 -'  1  0  ~/templates/404.html
 -'  1  0  ~/templates/Gogh.html
 -'  35  20  ~/coursework1.py
--'  1  0  ~/coursework1.py
 -'  31  26  ~/coursework1.py
 -'  5  35  ~/templates/Gogh.html
 -'  33  11  ~/coursework1.py
@@ -74,9 +81,8 @@ $
 -'  15  22  ~/redirect.py
 -'  1  0  ~/redirect.py
 -'  4  0  ~/templates/404.html
--'  9  64  ~/templates/index.html
+-'  12  64  ~/templates/index.html
 -'  10  51  ~/templates/404.html
--'  47  33  ~/coursework1.py
 -'  8  0  ~/templates
 -'  1  0  ~/templates
 -'  2  24  ~/css/style.css
@@ -86,13 +92,12 @@ $
 -'  12  34  ~/coursework1.py
 -'  19  23  ~/coursework1.py
 -'  5  27  ~/etc/defaults.cfg
--'  27  0  ~/templates/index.html
 -'  4  32  ~/templates/base.html
 -'  1  0  ~/templates/base.html
--'  8  52  ~/templates/index.html
+-'  11  52  ~/templates/index.html
 -'  1  0  ~/testing_test.py
 -'  2  3  ~/testing_test.py
--'  10  7  ~/templates/index.html
+-'  13  7  ~/templates/index.html
 -'  7  0  ~/webapp.py
 -'  1  0  ~/webapp.py
 -'  39  64  ~/templates/base.html
@@ -110,12 +115,12 @@ $
 -'  13  16  ~/testing_test.py
 -'  6  29  ~/HelloNapier.py
 -'  1  0  ~/HelloNapier.py
--'  32  32  ~/templates/index.html
+-'  37  32  ~/templates/index.html
 -'  46  0  ~/var/loggingapp.py
 -'  1  0  ~/var/loggingapp.py
 -'  17  46  ~/var/loggingapp.py
 -'  11  0  ~/HelloNapier.py
--'  37  13  ~/templates/index.html
+-'  42  13  ~/templates/index.html
 -'  1  0  ~/templates/inde.html
 -'  13  13  ~/index.html
 -'  1  0  ~/index.html
@@ -147,130 +152,131 @@ $
 -'  1  0  /etc
 -'  127  12  /etc/rc.local
 -'  8  0  /etc
--'  1  0  /etc
--'  24  0  ~/.profile
--'  18  0  ~/.profile
--'  1  0  ~/.profile
--'  34  4  /etc/rc.local
 
 # History of marks within files (newest to oldest):
 
 > ~/templates/index.html
-	"	7	64
-	^	7	65
-	.	7	64
-	+	1	6
-	+	39	6
-	+	32	33
-	+	36	0
-	+	35	1
-	+	38	0
-	+	32	32
-	+	1	6
-	+	26	7
-	+	4	40
-	+	5	35
-	+	6	72
-	+	10	7
-	+	1	14
-	+	11	6
-	+	11	11
-	+	23	0
-	+	8	52
-	+	8	0
-	+	6	63
-	+	8	81
-	+	8	15
-	+	8	85
-	+	10	0
-	+	9	35
-	+	19	8
-	+	20	23
-	+	24	5
-	+	19	0
-	+	13	60
-	+	3	0
-	+	4	0
-	+	5	0
-	+	6	0
-	+	8	0
-	+	9	0
+	"	26	48
+	^	26	79
+	.	26	48
+	+	11	0
 	+	12	0
-	+	13	0
-	+	13	38
-	+	19	0
-	+	20	0
+	+	16	0
+	+	17	0
+	+	17	38
+	+	23	0
 	+	24	0
-	+	13	55
-	+	14	11
-	+	7	43
-	+	6	108
-	+	6	33
+	+	28	0
+	+	17	55
+	+	18	11
+	+	9	43
+	+	8	108
 	+	8	33
+	+	11	33
 	+	1	9
-	+	15	52
-	+	16	16
-	+	15	23
-	+	17	51
-	+	7	55
-	+	7	54
+	+	19	52
+	+	20	16
+	+	19	23
+	+	21	51
+	+	9	55
 	+	9	54
-	+	7	49
-	+	15	41
-	+	16	42
-	+	17	42
-	+	13	30
-	+	15	3
+	+	12	54
+	+	9	49
+	+	19	41
+	+	20	42
+	+	21	42
+	+	17	30
+	+	19	3
+	+	20	2
+	+	21	61
+	+	22	7
+	+	19	46
+	+	19	46
+	+	19	46
+	+	20	67
+	+	21	24
+	+	9	64
+	+	17	20
+	+	10	71
+	+	10	77
+	+	11	0
+	+	2	5
+	+	1	14
+	+	2	14
+	+	6	69
+	+	15	28
+	+	29	6
+	+	30	0
+	+	29	1
+	+	28	2
+	+	24	2
+	+	24	31
+	+	24	31
+	+	24	28
+	+	23	2
+	+	22	3
+	+	21	4
+	+	20	5
+	+	19	5
+	+	15	0
+	+	16	1
+	+	17	2
+	+	18	3
+	+	19	4
+	+	20	4
+	+	24	26
+	+	28	0
+	+	14	0
+	+	15	1
 	+	16	2
-	+	17	61
-	+	18	7
-	+	15	46
-	+	15	46
-	+	15	46
-	+	16	67
-	+	17	24
-	+	7	64
-
-> ~/static/cw1.js
-	"	2	1
-	^	2	2
-	.	2	1
-	+	2	1
+	+	17	3
+	+	18	4
+	+	19	5
+	+	20	5
+	+	21	5
+	+	22	4
+	+	23	3
+	+	24	3
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	24	8
+	+	28	0
+	+	27	0
+	+	24	26
+	+	25	78
+	+	25	78
+	+	25	96
+	+	26	67
+	+	25	51
+	+	26	107
+	+	26	48
 
 > ~/static/style.css
-	"	2	25
-	^	2	26
-	.	2	25
-	+	3	0
-	+	2	25
-
-> ~/templates/404.html
-	"	3	37
-	^	4	0
-	.	3	59
-	+	1	25
-	+	12	1
-	+	2	6
-	+	5	0
-	+	5	6
-	+	12	6
-	+	9	50
-	+	7	59
-	+	10	51
-	+	3	59
-
-> ~/templates/Gogh.html
-	"	1	0
-	^	5	36
-	.	5	35
-	+	1	25
-	+	7	6
-	+	5	35
+	"	1	4
+	^	1	5
+	.	2	0
+	+	2	0
+	+	1	30
+	+	9	0
+	+	4	34
+	+	6	19
+	+	4	10
+	+	7	25
+	+	2	0
 
 > ~/coursework1.py
-	"	35	20
-	^	35	21
-	.	35	21
+	"	36	0
+	^	36	0
+	.	36	0
 	+	44	4
 	+	1	18
 	+	7	0
@@ -296,11 +302,55 @@ $
 	+	35	36
 	+	33	20
 	+	31	33
-	+	37	0
+	+	36	0
 	+	28	0
 	+	33	12
 	+	31	26
 	+	35	21
+	+	36	0
+	+	36	0
+	+	36	14
+	+	33	14
+	+	36	31
+	+	36	20
+	+	36	85
+	+	29	20
+	+	31	33
+	+	33	20
+	+	35	32
+	+	36	16
+	+	36	138
+	+	36	24
+	+	36	0
+
+> ~/static/cw1.js
+	"	2	1
+	^	2	2
+	.	2	1
+	+	2	1
+
+> ~/templates/404.html
+	"	3	37
+	^	4	0
+	.	3	59
+	+	1	25
+	+	12	1
+	+	2	6
+	+	5	0
+	+	5	6
+	+	12	6
+	+	9	50
+	+	7	59
+	+	10	51
+	+	3	59
+
+> ~/templates/Gogh.html
+	"	1	0
+	^	5	36
+	.	5	35
+	+	1	25
+	+	7	6
+	+	5	35
 
 > ~/redirect.py
 	"	15	22

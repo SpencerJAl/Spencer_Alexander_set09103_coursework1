@@ -1,27 +1,32 @@
-<!DOCTYPE html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="Art_Searcher" Content="Art">
- <title>Art Through The Ages</title>
- <link href="{{ url_for('static', filename='bootstrap-3.3.5-dist/css/bootstrap.min.css') }}" rel="stylesheet" />
- <link href="{{ url_for('static', filename='style.css')}}" rel="stylesheet"/>
- <script src="{{url_for('static', filename='bootstrap-3.3.5-dist/js/bootstrap.min.js')}}></script>
- <script src="{{ url_for('static', filename='cw1.js')}}"></script>
-</head>
-<body>
- <header>
- <h1>Welcome to Famous Art Pieces</h1>
-  <div class="btn-group">
-   <a href="artist.html"><button type="button">Artist</button></a>
-   <a href="country.html"><button type="button">Country</button></a>
-   <a href="century.html"><button type="button">Century</button></a>
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Art_Searcher" Content="Art">
+  <meta name="viewport" content="width=device-width", initial-scale=1">
+  <title>Art Through The Ages</title>
+  <link href="{{ url_for('static', filename='bootstrap-3.3.5-dist/css/bootstrap.min.css') }}" rel="stylesheet" />
+  <link href="{{ url_for('static', filename='style.css')}}" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"/>
+  <script src="{{url_for('static', filename='bootstrap-3.3.5-dist/js/bootstrap.min.js')}}></script>
+  <script src="{{ url_for('static', filename='cw1.js')}}"></script>
+ </head>
+ <body>
+  <div class="container-fluid">
+   <header>
+    <h1 id="HomeHeader">Welcome to Famous Art Pieces</h1>
+     <div class="btn-group">
+      <a href="artist.html"><button type="button">Artist</button></a>
+      <a href="country.html"><button type="button">Country</button></a>
+      <a href="century.html"><button type="button">Century</button></a>
+     </div>
+    </header>
+    <div id="i_paintings">
+    <img src="{{ url_for('static', filename='gogh/g_painting1.png')}}" alt="A Van Gogh Painting"/>
+    <img src="{{ url_for('static', filename='pablo/p_painting1.png')}}" alt="A Pablo Piccaso Painting"/>
+
+   </div>
   </div>
- </header>
- <div id="content-swap">
-
-
-
- </div>
-</body>
+ </body>
 </html>
 
