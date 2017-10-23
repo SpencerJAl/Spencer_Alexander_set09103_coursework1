@@ -1,9 +1,34 @@
 import ConfigParser
 from flask import Flask, render_template, url_for, redirect
 app = Flask(__name__)
+
 @app.route('/')
 def root():
   return render_template('index.html')
+
+@app.route('/century')
+def century():
+  return render_template('century.html')
+
+@app.route('/artist')
+def artist():
+  return render_template('artist.html')
+
+@app.route('/country')
+def country():
+  return render_template('country.html')
+
+@app.route('/artist/gogh')
+def gogh():
+  return render_template('gogh.html')
+
+@app.route('/artist/DaVinci')
+def vinci():
+   return render_template('vinci.html')
+@app.route('/artist/picasso')
+def picasso():
+  return render_template('picasso.html')
+
 @app.route('/config/')
 def config():
   str = []
@@ -25,15 +50,6 @@ def init(app):
      app.config['url'] = config.get("config", "url")
    except:
      print "Could not get config details: ", config.location
-
-@app.route("/countyr")
-def vincent():
- return redirect(url_for('country'))
-
-@app.route("/country")
-def Gogh():
- return render_template('country.html')
-
 
 @app.errorhandler(404)
 def page_not_found(error):

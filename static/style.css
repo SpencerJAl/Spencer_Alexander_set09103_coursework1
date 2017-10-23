@@ -1,9 +1,34 @@
 body{
+background-color:#A0FF76;
 }
 #homeheader{
 font-family:'Libre Baskerville', 'serif';
+font-style:italic;
 margin: auto 0;
 padding-bottom:20px;
-background-color: #A0FF76;
-
+background-color:#A0FF76;
+width:40%;
+color:#ffffff;
+}
+#whereartis{
+font-family:'Libre Baskerville', 'serif';
+padding-bottom:20px;
+width:40%;
+float:right;
+}
+#i_paintings{
+width:90%;
+margin: auto 100;
+background-color:#65B236;
+}
+.paintings{
+width:20%;
+}
+#i_paintings img{
+width: 100%;
+float:left;
+margin-right:100px;
+}
+.thumbnail{
+background-color:#65B236;
 }

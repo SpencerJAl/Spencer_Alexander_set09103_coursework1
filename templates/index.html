@@ -14,18 +14,38 @@
  <body>
   <div class="container-fluid">
    <header>
-    <h1 id="HomeHeader">Welcome to Famous Art Pieces</h1>
-     <div class="btn-group">
-      <a href="artist.html"><button type="button">Artist</button></a>
-      <a href="country.html"><button type="button">Country</button></a>
-      <a href="century.html"><button type="button">Century</button></a>
+    <h1 id="homeheader">Welcome to Famous Art Pieces</h1>
+    <h4 id="whereartis">Where art is life</h4>
+     <div class="btn-group btn-group-justified">
+      <a href="artist" class="btn btn-success">Artist</a>
+      <a href="country" class="btn btn-success">Country</a>
+      <a href="century" class="btn btn-success">Century</a>
      </div>
     </header>
     <div id="i_paintings">
-    <img src="{{ url_for('static', filename='gogh/g_painting1.png')}}" alt="A Van Gogh Painting"/>
-    <img src="{{ url_for('static', filename='pablo/p_painting1.png')}}" alt="A Pablo Piccaso Painting"/>
 
-   </div>
+    <div class="col-md-4">
+     <div class="thumbnail">
+      <a href="{{ url_for('static', filename='g-painting1.jpg')}}" target="blank">
+       <img src="{{ url_for('static', filename='g-painting1.jpg')}}" alt="A Van Gogh Painting"/>
+        <div class="caption">
+         <p> One of van Gogh more famous paintings</p>
+        </div>
+       </a>
+      </div>
+     </div>
+
+     <div class="col-md-4">
+      <div class="thumbnail">
+       <a href="{{ url_for('static', filename='p-painting1.jpg')}}" target="blank">
+       <img src="{{ url_for('static', filename='p-painting1.jpg')}}" alt="A Pablo Piccaso Painting"/>
+        <div class="caption">
+         <p> An example of picassos cubism</p>
+        </div>
+       </a>
+     </div>
+    </div>
+
   </div>
  </body>
 </html>
