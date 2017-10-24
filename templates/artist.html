@@ -17,12 +17,46 @@
 feel free to look through the following list and learn a small bit about them,
 or enter their names into the search bar to learn more about them or view some of their
 paintings</p>
+
+<p>Enter Artist name to learn more:<input type="text" name="artsearch" id="art
+search"><input type="submit" name="name" id="search"></p>
 <div id="painter">
 
-<div class="">
+ <div class="col-md-4">
+  <div class="thumbnail">
+   <img src="{{ url_for('static', filename='pablo.jpg')}}" alt="A Photograph of
+   famous artist pablo picasso"/>
+   <div class="caption">
+    <p>Pablo Picasso is a famous 19th & 20th century painter from Spain. He is
+    most famous for his orignal paintgs based on the style we now call
+    cubism</p>
+   </div>
+  </div>
+ </div>
 
-<img src="">
-</div>
+ <div class="col-md-4">
+  <div class="thumbnail">
+   <img src="{{ url_for('static', filename='leonardo.jpg')}}" alt="A painting
+   of famous artist leonardo da vinci"/>
+   <div class="caption">
+    <p>Leonardo Da Vinci, is without a doubt one of the most famous painters of
+    all time. Oringally from Italy, Leonardo is most famous for his painting
+    "The mona lisa"</p>
+    </div>
+   </div>
+  </div>
+
+  <div class="col-md-4">
+   <div class="thumbnail">
+    <img src="{{ url_for('static', filename='vincent.jpg')}}" alt="A painting
+    of vincent van gogh"/>
+     <div class="caption">
+      <p>Vincent Van Gogh, also known as "The mad painter", is a famous painter
+      known for his unqiue art style, which while at the time was critized, has
+      since become a world wide phenomenon</p>
+     </div>
+    </div>
+   </div>
 </div>
 </body>
 </html>
