@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script src="{{ url_for('static', filename='bootstrap-3.3.5-dist/js/boostrap.min.js')}}"></script>
+<title>Century</title>
+<link href="{{ url_for('static', filename='frame.png')}}" rel="icon" />
+<link href="{{ url_for('static', filename='style.css')}}" rel="stylesheet" />
+<link href="{{ url_for('static', filename='bootstrap-3.3.5-dist/css/bootstrap.min.js')}}" rel="styleseet" />
+<script src="{{ url_for('static', filename='bootstrap-3.3.5-dist/js/bootstrap.min.js')}}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-<p> This is a test page</p>
+<h1>Century</h1>
+<h2>Art style has evolved over the centurys from early roman to the more modern perspective art</h2>
+<div id="year">
+
+ <div class="col-md-4">
+  <div class="thumbnail">
+  <a href="/century/19th">
+   <img src="{{url_for('static', filename='19th.png')}}" alt="19th">
+   </a>
+  <div="caption">
+  <p>The 19th Century</p>
+ </div>
+</div>
+</div>
+
+<div class="col-md-4">
+ <div class="thumbnail"><a href="/century/18th">
+  <img src="{{url_for('static', filename='18th.png')}}" alt="18th">
+  </a>
+ <div class="caption">
+ <p>The 18th Century</p>
+ </div>
+</div>
+</div>
+
+<div class="col-md-4">
+ <div class="thumbnail"><a href="/century/15th">
+  <img src="{{url_for('static', filename='15th.png')}}" alt="15th">
+  </a>
+  <div class="caption">
+  <p> The 15th Century</p>
+  </div>
+  </div>
+ </div>
+</div> 
 </body>
-<html>
+</html>
 
