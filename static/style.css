@@ -15,14 +15,16 @@ font-family:'Libre Baskerville', 'serif';
 padding-bottom:20px;
 width:40%;
 float:right;
+color:#ffffff;
 }
 #i_paintings{
-width:90%;
+width:100%;
 margin: auto 100;
 background-color:#65B236;
 }
 .paintings{
-width:20%;
+width:40%;
+height:350px;
 }
 #i_paintings img{
 width: 100%;
@@ -31,4 +33,13 @@ margin-right:100px;
 }
 .thumbnail{
 background-color:#65B236;
+}
+#404{
+width:100%;
+color:#FFFFFF;
+}
+#404 img{
+width:200px;
+height:200px;
+float:right;
 }

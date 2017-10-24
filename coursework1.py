@@ -25,9 +25,34 @@ def gogh():
 @app.route('/artist/DaVinci')
 def vinci():
    return render_template('vinci.html')
+
 @app.route('/artist/picasso')
 def picasso():
   return render_template('picasso.html')
+
+@app.route('/country/france')
+def france():
+  return render_template('france.html')
+
+@app.route('country/italy')
+def italy():
+  return render_template('italy.html')
+
+@app.route('country/netherlands')
+def netherlands():
+  return render_template('netherlands.html')
+
+@app.route('century/19th')
+def ninth():
+  return render_template('19th.html')
+
+@app.route('century/18th')
+def eighth():
+  return render_template('18th.html')
+
+@app.route('century/15th')
+def fifth():
+  return render_template('15th.html')
 
 @app.route('/config/')
 def config():
