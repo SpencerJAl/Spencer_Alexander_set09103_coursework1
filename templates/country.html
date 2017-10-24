@@ -10,6 +10,37 @@
 <script src="{{ url_for('static', filename='bootstrap-3.3.5-dist/js/bootstrap.min.js')}}"></script>
 </head>
 <body>
-<h1> This is a test</h1>
+<h1>Country </h1>
+<h2> There are many paintings and painters from many countries arond the world, feel free to
+look some of the paintings or painters from the following countries</h2>
+<div id="nations">
+<div class="col-md-4">
+ <div class="thumbnail">
+  <img src="{{ url_for('static', filename='netherlands.jpg')}}" alt="Flag of Netherlands"/>
+   <div class="caption">
+    <p> Many painters have from this noble nation of the dutch </p>
+   </div>
+  </div> 
+ </div>
+
+ <div class="col-md-4">
+  <div class="thumbnail">
+   <img src="{{ url_for('static', filename='italy.jpg')}}" alt="Flag of Italy"/>
+    <div class="caption">
+     <p> A nation of historic art and food, italy is a diamond of culture</p>
+    </div>
+   </div>
+  </div>
+
+  <div class="col-md-4">
+   <div class="thumbnail">
+    <img src="{{ url_for('static', filename='spain.jpg')}}" alt="Flag of Spain"/>
+     <div class="caption">
+      <p> A nation of sun and art, spain is a beatiful nation</p>
+     </div>
+    </div>
+   </div>
+
+ </div>
 </body>
 </html>
