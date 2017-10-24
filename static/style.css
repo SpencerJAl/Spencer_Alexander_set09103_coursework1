@@ -5,22 +5,21 @@ background-color:#A0FF76;
 font-family:'Libre Baskerville', 'serif';
 font-style:italic;
 margin: auto 0;
-padding-bottom:20px;
 background-color:#A0FF76;
-width:40%;
+width:50%;
 color:#ffffff;
 }
 #whereartis{
 font-family:'Libre Baskerville', 'serif';
-padding-bottom:20px;
-width:40%;
+width:50%;
 float:right;
 color:#ffffff;
+text-align:right;
 }
 #i_paintings{
 width:100%;
 margin: auto 100;
-background-color:#65B236;
+padding-top: 25px;
 }
 .paintings{
 width:40%;
@@ -31,12 +30,25 @@ width: 100%;
 float:left;
 margin-right:100px;
 }
+#artisthead{
+color:#ffffff;
+}
 .thumbnail{
 background-color:#65B236;
 }
+#
 #404{
 width:100%;
 color:#FFFFFF;
+}
+#404 h1{
+color:#ffffff;
+}
+#404 h2{
+color:#ffffff;
+}
+#404 p{
+color:#ffffff;
 }
 #404 img{
 width:200px;

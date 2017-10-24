@@ -34,23 +34,23 @@ def picasso():
 def france():
   return render_template('france.html')
 
-@app.route('country/italy')
+@app.route('/country/italy')
 def italy():
   return render_template('italy.html')
 
-@app.route('country/netherlands')
+@app.route('/country/netherlands')
 def netherlands():
   return render_template('netherlands.html')
 
-@app.route('century/19th')
+@app.route('/century/19th')
 def ninth():
   return render_template('19th.html')
 
-@app.route('century/18th')
+@app.route('/century/18th')
 def eighth():
   return render_template('18th.html')
 
-@app.route('century/15th')
+@app.route('/century/15th')
 def fifth():
   return render_template('15th.html')
 
