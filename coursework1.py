@@ -102,11 +102,65 @@ def redV_V():
 def redV_V_G():
   return redirect(url_for('gogh'))
 
+@app.route('/artist/pablo')
+def redpa():
+  return redirect(url_for('picasso'))
+
+@app.route('/artist/PABLO')
+def redPA():
+  return redirect(url_for('picasso'))
+
+@app.route('/artist/Pablo')
+def redPa():
+  return redirect(url_for('picasso'))
+
+@app.route('/artist/pablo picasso')
+def redpp():
+  return redirect(url_for('picasso'))
+
+@app.route('/artist/PABLO PICASSP')
+def redPP():
+  return redirect(url_for('picasso'))
+
+@app.route('/artist/Pablo Picasso')
+def redPaPi():
+  return redirect(url_for('gogh'))
 
 @app.route('/artist/piccaso')
 def redp():
   return redirect(url_for('picasso'))
 
+@app.route('/artist/da vinci')
+def redda():
+  return redirect(url_for('DaVinci'))
+
+@app.route('/artist/DA VINCI')
+def redDA():
+  return redirect(url_for('DaVinci'))
+
+@app.route('/artist/leonardo')
+def redleo():
+  return redirect(url_for('DaVinci'))
+
+@app.route('/artist/Leonardo')
+def redLeo():
+  return redirect(url_for('DaVinci'))
+
+@app.route('/artist/LEONARDO')
+def redLEO():
+  return redirect(url_for('DaVinci'))
+
+@app.route('/artist/leonardo da vinci')
+def redleod():
+  return redirect(url_for('DaVinci'))
+
+@app.route('/artist/Leonardo Da Vinci')
+def redLeoD():
+  return redirect(url_for('DaVinvi'))
+
+@app.route('/artist/LEONARDO DA VINCI')
+def redLEOD():
+  return redirect(url_for('DaVinci'))
 
 
 @app.route('/config/')
