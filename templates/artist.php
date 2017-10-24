@@ -20,7 +20,7 @@
 feel free to look through the following list and learn a small bit about them,
 or enter their names into the search bar to learn more about them or view some of their
 paintings</p>
-<form onSubmit="return url();">
+<form method="post" action="add.php">
 <p>Enter Artist name to learn more:<input type="text" name="painter"
 id="painter"><input type="submit" name="name" id="search" value="Search
 Painter" class="btn btn-success"></p>

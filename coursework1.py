@@ -12,7 +12,7 @@ def century():
 
 @app.route('/artist')
 def artist():
-  return render_template('artist.html')
+  return render_template('artist.php')
 
 @app.route('/country')
 def country():
