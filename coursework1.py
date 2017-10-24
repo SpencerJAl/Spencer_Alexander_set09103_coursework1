@@ -54,6 +54,61 @@ def eighth():
 def fifth():
   return render_template('15th.html')
 
+@app.route('/artist/vincent')
+def redv():
+  return redirect(url_for('gogh'))
+
+@app.route('/artist/vincentvan')
+def redvv():
+  return redirect(url_for('gogh'))
+
+@app.route('/artist/vincentvangogh')
+def redvvg():
+  return redirect(url_for('gogh'))
+
+@app.route('/artist/vangogh')
+def redvg():
+  return redirect(url_for('gogh'))
+
+@app.route('/artist/GOGH')
+def redg():
+  return redirect(url_for('gogh'))
+
+@app.route('/artist/VINCENT')
+def redV():
+  return redirect(url_for('gogh'))
+
+@app.route('/artist/VINCENTVAN')
+def redVV():
+  return redirect(url_for('gogh'))
+
+@app.route('/artist/VINCENTVANGOGH')
+def redVVG():
+  return redirect(url_for('gogh'))
+
+@app.route('/artist/vincent van')
+def redv_v():
+  return redirect(url_for('gogh'))
+
+@app.route('/artist/vincent van gogh')
+def redv_v_g():
+  return redirect(url_for('gogh'))
+
+@app.route('/artist/VINCENT VAN')
+def redV_V():
+  return redirect(url_for('gogh'))
+
+@app.route('/artist/VINCENT VAN GOGH')
+def redV_V_G():
+  return redirect(url_for('gogh'))
+
+
+@app.route('/artist/piccaso')
+def redp():
+  return redirect(url_for('picasso'))
+
+
+
 @app.route('/config/')
 def config():
   str = []

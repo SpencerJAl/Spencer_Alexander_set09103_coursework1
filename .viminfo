@@ -42,21 +42,23 @@ $
 "3	LINE	0
 	
 ""-	CHAR	0
-	 
+	.
 
 # File marks:
-'0  28  6  ~/templates/artist.html
-'1  19  12  ~/templates/artist.html
-'2  34  13  ~/static/style.css
-'3  61  7  ~/templates/index.html
-'4  33  0  ~/static/style.css
-'5  10  46  ~/templates/404.html
-'6  58  12  ~/coursework1.py
-'7  53  23  ~/coursework1.py
-'8  42  13  ~/static/style.css
-'9  1  0  ~/templates/index.html
+'0  103  33  ~/coursework1.py
+'1  28  6  ~/templates/artist.html
+'2  19  12  ~/templates/artist.html
+'3  34  13  ~/static/style.css
+'4  61  7  ~/templates/index.html
+'5  33  0  ~/static/style.css
+'6  10  46  ~/templates/404.html
+'7  113  12  ~/coursework1.py
+'8  53  23  ~/coursework1.py
+'9  42  13  ~/static/style.css
 
 # Jumplist (newest first):
+-'  103  33  ~/coursework1.py
+-'  1  0  ~/coursework1.py
 -'  28  6  ~/templates/artist.html
 -'  26  5  ~/templates/artist.html
 -'  1  0  ~/templates/artist.html
@@ -68,8 +70,7 @@ $
 -'  33  0  ~/static/style.css
 -'  10  46  ~/templates/404.html
 -'  1  0  ~/templates/404.html
--'  58  12  ~/coursework1.py
--'  1  0  ~/coursework1.py
+-'  113  12  ~/coursework1.py
 -'  53  23  ~/coursework1.py
 -'  42  13  ~/static/style.css
 -'  9  73  ~/templates/404.html
@@ -108,9 +109,9 @@ $
 -'  21  20  ~/templates/index.html
 -'  10  8  ~/coursework1.py
 -'  1  0  ~/testing.py
--'  78  0  ~/coursework1.py
+-'  133  0  ~/coursework1.py
 -'  22  20  ~/templates/index.html
--'  56  0  ~/coursework1.py
+-'  106  0  ~/coursework1.py
 -'  9  20  ~/coursework1.py
 -'  7  26  ~/templates/century.html
 -'  60  0  ~/templates/index.html
@@ -128,14 +129,14 @@ $
 -'  63  0  ~/templates/index.html
 -'  5  10  ~/static/style.css
 -'  7  34  ~/static/style.css
--'  88  7  ~/coursework1.py
+-'  143  7  ~/coursework1.py
 -'  9  64  ~/templates/index.html
 -'  2  1  ~/static/cw1.js
 -'  1  0  ~/static/cw1.js
 -'  3  37  ~/templates/404.html
 -'  1  0  ~/templates/Gogh.html
 -'  5  35  ~/templates/Gogh.html
--'  86  8  ~/coursework1.py
+-'  141  8  ~/coursework1.py
 -'  2  58  ~/coursework1.py
 -'  15  22  ~/redirect.py
 -'  1  0  ~/redirect.py
@@ -148,16 +149,120 @@ $
 -'  1  0  ~/css/style.css
 -'  9  12  ~/etc/defaults.cfg
 -'  1  0  ~/etc/defaults.cfg
--'  62  34  ~/coursework1.py
--'  69  23  ~/coursework1.py
+-'  117  34  ~/coursework1.py
+-'  124  23  ~/coursework1.py
 -'  5  27  ~/etc/defaults.cfg
 -'  4  32  ~/templates/base.html
 -'  1  0  ~/templates/base.html
 -'  11  52  ~/templates/index.html
 -'  1  0  ~/testing_test.py
--'  2  3  ~/testing_test.py
 
 # History of marks within files (newest to oldest):
+
+> ~/coursework1.py
+	"	103	33
+	^	103	34
+	.	100	0
+	+	130	51
+	+	129	53
+	+	132	59
+	+	2	39
+	+	143	30
+	+	124	24
+	+	117	34
+	+	112	0
+	+	138	0
+	+	2	59
+	+	133	141
+	+	133	92
+	+	133	69
+	+	133	43
+	+	133	0
+	+	133	84
+	+	133	62
+	+	133	126
+	+	133	43
+	+	133	43
+	+	133	57
+	+	133	86
+	+	133	74
+	+	133	63
+	+	133	128
+	+	133	20
+	+	133	69
+	+	133	92
+	+	133	137
+	+	133	59
+	+	133	181
+	+	133	67
+	+	133	43
+	+	9	22
+	+	15	23
+	+	11	24
+	+	16	89
+	+	13	5
+	+	16	101
+	+	13	19
+	+	9	20
+	+	106	0
+	+	16	100
+	+	13	19
+	+	9	20
+	+	8	0
+	+	12	0
+	+	14	0
+	+	16	80
+	+	10	10
+	+	14	8
+	+	16	112
+	+	133	42
+	+	133	42
+	+	134	0
+	+	134	0
+	+	10	8
+	+	3	21
+	+	16	79
+	+	106	0
+	+	19	40
+	+	25	29
+	+	29	0
+	+	31	40
+	+	43	43
+	+	28	0
+	+	32	0
+	+	36	0
+	+	40	0
+	+	55	36
+	+	37	12
+	+	41	12
+	+	45	12
+	+	49	12
+	+	53	12
+	+	43	0
+	+	75	31
+	+	106	29
+	+	111	0
+	+	76	0
+	+	107	6
+	+	74	6
+	+	75	33
+	+	108	37
+	+	110	0
+	+	60	0
+	+	61	18
+	+	57	12
+	+	61	32
+	+	65	36
+	+	72	0
+	+	77	29
+	+	84	0
+	+	87	34
+	+	91	33
+	+	92	0
+	+	91	0
+	+	95	34
+	+	105	0
+	+	100	0
 
 > ~/templates/artist.html
 	"	28	6
@@ -428,98 +533,6 @@ $
 	+	13	0
 	+	9	74
 	+	10	46
-
-> ~/coursework1.py
-	"	58	12
-	^	58	13
-	.	53	12
-	+	85	4
-	+	1	18
-	+	57	0
-	+	85	10
-	+	88	34
-	+	58	21
-	+	57	21
-	+	59	10
-	+	59	7
-	+	78	0
-	+	75	16
-	+	74	22
-	+	75	51
-	+	74	53
-	+	77	59
-	+	2	39
-	+	88	30
-	+	69	24
-	+	62	34
-	+	57	0
-	+	83	0
-	+	2	59
-	+	78	141
-	+	78	92
-	+	78	69
-	+	78	43
-	+	78	0
-	+	78	84
-	+	78	62
-	+	78	126
-	+	78	43
-	+	78	43
-	+	78	57
-	+	78	86
-	+	78	74
-	+	78	63
-	+	78	128
-	+	78	20
-	+	78	69
-	+	78	92
-	+	78	137
-	+	78	59
-	+	78	181
-	+	78	67
-	+	78	43
-	+	9	22
-	+	15	23
-	+	11	24
-	+	16	89
-	+	13	5
-	+	16	101
-	+	13	19
-	+	9	20
-	+	56	0
-	+	16	100
-	+	13	19
-	+	9	20
-	+	8	0
-	+	12	0
-	+	14	0
-	+	16	80
-	+	10	10
-	+	14	8
-	+	16	112
-	+	78	42
-	+	78	42
-	+	79	0
-	+	79	0
-	+	10	8
-	+	3	21
-	+	16	79
-	+	56	0
-	+	19	40
-	+	25	29
-	+	29	0
-	+	31	40
-	+	43	43
-	+	28	0
-	+	32	0
-	+	36	0
-	+	40	0
-	+	55	36
-	+	37	12
-	+	41	12
-	+	45	12
-	+	49	12
-	+	53	12
 
 > ~/templates/404.png
 	"	1	0
