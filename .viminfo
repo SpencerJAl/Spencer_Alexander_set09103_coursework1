@@ -37,51 +37,92 @@ $
 # Registers:
 "0	CHAR	0
 	l
-"1	CHAR	0
+""1	LINE	0
+	   <img src="{{ url_for('static', filename='images/vinent.jpg')}}" alt="A Photograph of
+"2	CHAR	0
+	Through out the history of our work there have been many artist, please
+	feel free to look through the following list and learn a small bit about them,
+	or enter their names into the search bar to learn more about them or view some of their
+	paintings
+"3	CHAR	0
+	
+	 <div class="col-md-4">
+	  <div class="thumbnail">
+	   <img src="{{ url_for('static', filename='images/leonardo.jpg')}}" alt="A painting
+	   of famous artist leonardo da vinci"/>
+	   <div class="caption">
+	    <p>Leonardo Da Vinci, is without a doubt one of the most famous painters of
+	    all time. Oringally from Italy, Leonardo is most famous for his painting
+	    "The mona lisa"</p>
+	    </div>
+	   </div>
+	  </div>
+	
+"4	CHAR	0
+	<form onSubmit="return url();">
+	<p>Enter Artist name to learn more:<input type="text" name="painter"
+	id="painter"><input type="submit" name="name" id="search" value="Search
+	Painter" class="btn btn-success"></p>
+	</form>
+	
+"5	CHAR	0
 	me to many famous citys and landmarks, Italy has a famous and rich culture
 	influenced largely by other cultures and religon, italy has a very unqiue take
 	on the art largely thanks to christinaty and the renaissance period of time<
-"2	CHAR	0
+"6	CHAR	0
 	
 	<p>Here is some of the famous painters that have been born in italy</p>
 	
-"3	CHAR	0
+"7	CHAR	0
 	argin-left:20%;
 	
-"4	LINE	0
+"8	LINE	0
 	
-"5	LINE	0
+"9	LINE	0
 	
-""-	CHAR	0
-	V
+"-	CHAR	0
+	v
 
 # File marks:
-'0  18  57  ~/templates/gogh.html
-'1  36  21  ~/templates/picasso.html
-'2  13  35  ~/templates/netherlands.html
-'3  173  24  ~/coursework1.py
-'4  171  27  ~/coursework1.py
-'5  17  75  ~/templates/italy.html
-'6  1  0  ~/templates/vinci.html
-'7  188  0  ~/coursework1.py
-'8  38  60  ~/templates/picasso.html
-'9  36  44  ~/templates/vinci.html
+'0  26  0  ~/templates/century.html
+'1  183  29  ~/coursework1.py
+'2  24  54  ~/templates/19th.html
+'3  1  0  ~/templates/19th.vim
+'4  181  12  ~/coursework1.py
+'5  42  5  ~/templates/19th.html
+'6  28  22  ~/templates/18th.html
+'7  26  6  ~/templates/15th.html
+'8  28  23  ~/templates/15th.html
+'9  1  0  ~/templates/15th.html
 
 # Jumplist (newest first):
+-'  26  0  ~/templates/century.html
+-'  1  0  ~/templates/century.html
+-'  183  29  ~/coursework1.py
+-'  1  0  ~/coursework1.py
+-'  24  54  ~/templates/19th.html
+-'  1  0  ~/templates/19th.html
+-'  1  0  ~/templates/19th.vim
+-'  181  12  ~/coursework1.py
+-'  42  5  ~/templates/19th.html
+-'  28  22  ~/templates/18th.html
+-'  1  0  ~/templates/18th.html
+-'  26  6  ~/templates/15th.html
+-'  1  0  ~/templates/15th.html
+-'  28  23  ~/templates/15th.html
 -'  18  57  ~/templates/gogh.html
 -'  1  0  ~/templates/gogh.html
 -'  36  21  ~/templates/picasso.html
 -'  1  0  ~/templates/picasso.html
 -'  13  35  ~/templates/netherlands.html
 -'  1  0  ~/templates/netherlands.html
--'  173  24  ~/coursework1.py
--'  1  0  ~/coursework1.py
--'  171  27  ~/coursework1.py
+-'  169  24  ~/coursework1.py
+-'  167  27  ~/coursework1.py
 -'  17  75  ~/templates/italy.html
 -'  1  0  ~/templates/italy.html
 -'  1  0  ~/templates/vinci.html
--'  188  0  ~/coursework1.py
--'  176  0  ~/coursework1.py
+-'  195  0  ~/coursework1.py
+-'  172  0  ~/coursework1.py
 -'  38  60  ~/templates/picasso.html
 -'  36  44  ~/templates/vinci.html
 -'  17  47  ~/templates/vinci.html
@@ -98,7 +139,6 @@ $
 -'  34  8  ~/coursework1.py
 -'  2  14  ~/templates/spain.html
 -'  12  19  ~/templates/century.html
--'  1  0  ~/templates/century.html
 -'  14  19  ~/templates/country.html
 -'  1  0  ~/templates/country.html
 -'  44  0  ~/static/css/style.css
@@ -106,7 +146,7 @@ $
 -'  35  0  ~/static/css/style.css
 -'  17  40  ~/templates/country.html
 -'  11  28  ~/templates/country.html
--'  39  48  ~/templates/century.html
+-'  29  48  ~/templates/century.html
 -'  10  30  ~/templates/country.html
 -'  9  48  ~/templates/index.html
 -'  1  0  ~/templates/index.html
@@ -117,10 +157,10 @@ $
 -'  11  6  ~/templates/index.html
 -'  9  113  ~/templates/century.html
 -'  13  5  ~/templates/country.html
--'  48  1  ~/templates/century.html
+-'  38  1  ~/templates/century.html
 -'  51  6  ~/templates/country.html
 -'  43  25  ~/templates/country.html
--'  51  0  ~/coursework1.py
+-'  47  82  ~/coursework1.py
 -'  22  5  ~/templates/country.html
 -'  8  67  ~/templates/artist.html
 -'  21  57  ~/templates/country.html
@@ -139,8 +179,8 @@ $
 -'  31  18  ~/static/style.css
 -'  1  0  ~/static/style.css
 -'  33  19  ~/templates/artist.html
--'  161  8  ~/coursework1.py
--'  103  33  ~/coursework1.py
+-'  157  8  ~/coursework1.py
+-'  99  33  ~/coursework1.py
 -'  69  6  ~/templates/artist.html
 -'  67  5  ~/templates/artist.html
 -'  24  12  ~/templates/artist.html
@@ -149,26 +189,252 @@ $
 -'  33  0  ~/static/style.css
 -'  10  46  ~/templates/404.html
 -'  1  0  ~/templates/404.html
--'  180  12  ~/coursework1.py
--'  53  23  ~/coursework1.py
+-'  187  12  ~/coursework1.py
+-'  49  23  ~/coursework1.py
 -'  42  13  ~/static/style.css
 -'  9  73  ~/templates/404.html
 -'  57  0  ~/static/style.css
 -'  12  55  ~/templates/404.html
--'  41  10  ~/static/style.css
--'  14  5  ~/templates/404.html
--'  53  7  ~/static/style.css
--'  56  11  ~/static/style.css
--'  1  0  ~/templates/404.png
--'  43  94  ~/templates/index.html
--'  38  0  ~/static/style.css
--'  26  12  ~/static/style.css
--'  63  7  ~/templates/index.html
--'  30  0  ~/templates/index.html
--'  20  21  ~/templates/index.html
--'  12  10  ~/static/style.css
 
 # History of marks within files (newest to oldest):
+
+> ~/templates/century.html
+	"	26	0
+	^	26	0
+	.	27	0
+	+	2	16
+	+	38	5
+	+	12	24
+	+	10	6
+	+	3	5
+	+	12	26
+	+	9	96
+	+	9	44
+	+	7	102
+	+	7	31
+	+	5	64
+	+	12	16
+	+	13	98
+	+	13	100
+	+	19	27
+	+	22	25
+	+	23	7
+	+	26	67
+	+	26	12
+	+	26	66
+	+	26	3
+	+	26	21
+	+	26	23
+	+	22	14
+	+	31	23
+	+	35	8
+	+	36	0
+	+	35	0
+	+	5	29
+	+	6	31
+	+	7	31
+	+	9	33
+	+	6	0
+	+	5	13
+	+	9	70
+	+	38	1
+	+	15	0
+	+	26	0
+	+	28	47
+	+	30	5
+	+	26	5
+	+	26	47
+	+	20	6
+	+	18	26
+	+	9	178
+	+	9	106
+	+	7	101
+	+	6	72
+	+	5	31
+	+	6	31
+	+	7	31
+	+	9	33
+	+	5	14
+	+	6	14
+	+	7	14
+	+	8	75
+	+	10	0
+	+	5	49
+	+	6	46
+	+	19	49
+	+	26	48
+	+	29	48
+	+	7	32
+	+	7	82
+	+	7	32
+	+	7	32
+	+	11	5
+	+	14	37
+	+	7	101
+	+	7	32
+	+	14	15
+	+	12	19
+	+	27	0
+
+> ~/coursework1.py
+	"	183	29
+	^	183	30
+	.	183	30
+	+	70	6
+	+	71	33
+	+	127	37
+	+	129	0
+	+	56	0
+	+	57	18
+	+	53	12
+	+	57	32
+	+	61	36
+	+	68	0
+	+	73	29
+	+	80	0
+	+	83	34
+	+	87	33
+	+	88	0
+	+	87	0
+	+	91	34
+	+	124	2
+	+	96	0
+	+	102	12
+	+	107	37
+	+	114	6
+	+	113	25
+	+	119	37
+	+	124	0
+	+	129	29
+	+	136	0
+	+	137	30
+	+	184	0
+	+	143	36
+	+	139	35
+	+	149	35
+	+	133	22
+	+	129	22
+	+	149	39
+	+	159	37
+	+	121	34
+	+	157	8
+	+	15	36
+	+	159	41
+	+	155	41
+	+	151	41
+	+	147	42
+	+	143	41
+	+	139	41
+	+	135	41
+	+	131	41
+	+	127	41
+	+	123	38
+	+	119	41
+	+	123	34
+	+	117	32
+	+	115	41
+	+	111	41
+	+	107	41
+	+	103	41
+	+	99	38
+	+	95	38
+	+	91	38
+	+	87	38
+	+	83	38
+	+	79	38
+	+	75	38
+	+	71	38
+	+	68	0
+	+	63	38
+	+	59	38
+	+	55	38
+	+	51	41
+	+	47	123
+	+	47	41
+	+	43	48
+	+	39	42
+	+	35	43
+	+	31	44
+	+	27	43
+	+	23	41
+	+	19	44
+	+	15	37
+	+	11	44
+	+	7	42
+	+	33	26
+	+	35	31
+	+	34	9
+	+	33	26
+	+	165	12
+	+	163	38
+	+	166	12
+	+	165	34
+	+	167	26
+	+	165	35
+	+	167	42
+	+	172	0
+	+	167	27
+	+	169	24
+	+	183	39
+	+	181	12
+	+	48	0
+	+	167	30
+	+	183	30
+
+> ~/templates/19th.html
+	"	24	54
+	^	24	55
+	.	24	54
+	+	12	8
+	+	18	38
+	+	23	80
+	+	25	33
+	+	28	23
+	+	23	23
+	+	36	34
+	+	37	7
+	+	41	7
+	+	42	5
+	+	39	22
+	+	38	23
+	+	35	62
+	+	23	83
+	+	35	60
+	+	23	25
+	+	24	54
+
+> ~/templates/19th.vim
+	"	1	0
+
+> ~/templates/18th.html
+	"	28	22
+	^	28	23
+	.	28	23
+	+	12	9
+	+	16	5
+	+	18	38
+	+	24	55
+	+	25	33
+	+	28	23
+
+> ~/templates/15th.html
+	"	26	6
+	^	26	7
+	.	26	6
+	+	12	8
+	+	13	0
+	+	20	0
+	+	32	0
+	+	33	0
+	+	24	59
+	+	25	34
+	+	16	16
+	+	12	19
+	+	19	0
+	+	18	48
+	+	28	24
+	+	23	25
+	+	26	6
 
 > ~/templates/gogh.html
 	"	18	57
@@ -248,111 +514,6 @@ $
 	+	24	23
 	+	25	58
 	+	13	36
-
-> ~/coursework1.py
-	"	173	24
-	^	173	25
-	.	173	24
-	+	75	31
-	+	128	31
-	+	140	0
-	+	76	0
-	+	130	6
-	+	74	6
-	+	75	33
-	+	131	37
-	+	133	0
-	+	60	0
-	+	61	18
-	+	57	12
-	+	61	32
-	+	65	36
-	+	72	0
-	+	77	29
-	+	84	0
-	+	87	34
-	+	91	33
-	+	92	0
-	+	91	0
-	+	95	34
-	+	128	2
-	+	100	0
-	+	106	12
-	+	111	37
-	+	118	6
-	+	117	25
-	+	123	37
-	+	128	0
-	+	133	29
-	+	140	0
-	+	141	30
-	+	177	0
-	+	147	36
-	+	143	35
-	+	153	35
-	+	137	22
-	+	133	22
-	+	153	39
-	+	163	37
-	+	125	34
-	+	161	8
-	+	15	36
-	+	163	41
-	+	159	41
-	+	155	41
-	+	151	42
-	+	147	41
-	+	143	41
-	+	139	41
-	+	135	41
-	+	131	41
-	+	127	38
-	+	123	41
-	+	127	34
-	+	121	32
-	+	119	41
-	+	115	41
-	+	111	41
-	+	107	41
-	+	103	38
-	+	99	38
-	+	95	38
-	+	91	38
-	+	87	38
-	+	83	38
-	+	79	38
-	+	75	38
-	+	72	0
-	+	67	38
-	+	63	38
-	+	59	38
-	+	55	41
-	+	51	41
-	+	47	41
-	+	43	48
-	+	39	42
-	+	35	43
-	+	31	44
-	+	27	43
-	+	23	41
-	+	19	44
-	+	15	37
-	+	11	44
-	+	7	42
-	+	33	26
-	+	35	31
-	+	34	9
-	+	33	26
-	+	169	12
-	+	167	38
-	+	170	12
-	+	169	34
-	+	171	26
-	+	169	35
-	+	171	42
-	+	176	0
-	+	171	27
-	+	173	24
 
 > ~/templates/italy.html
 	"	17	75
@@ -453,83 +614,6 @@ $
 
 > ~/templates/spain.tml
 	"	1	0
-
-> ~/templates/century.html
-	"	12	19
-	^	12	20
-	.	12	19
-	+	2	16
-	+	48	5
-	+	12	24
-	+	10	6
-	+	3	5
-	+	12	26
-	+	9	96
-	+	9	44
-	+	7	102
-	+	7	31
-	+	5	64
-	+	12	16
-	+	13	98
-	+	13	100
-	+	19	27
-	+	22	25
-	+	23	7
-	+	29	67
-	+	31	12
-	+	29	66
-	+	32	3
-	+	31	21
-	+	32	23
-	+	22	14
-	+	41	23
-	+	45	8
-	+	46	0
-	+	45	0
-	+	5	29
-	+	6	31
-	+	7	31
-	+	9	33
-	+	6	0
-	+	5	13
-	+	9	70
-	+	48	1
-	+	15	0
-	+	26	0
-	+	38	47
-	+	40	5
-	+	30	5
-	+	28	47
-	+	20	6
-	+	18	26
-	+	9	178
-	+	9	106
-	+	7	101
-	+	6	72
-	+	5	31
-	+	6	31
-	+	7	31
-	+	9	33
-	+	5	14
-	+	6	14
-	+	7	14
-	+	8	75
-	+	10	0
-	+	5	49
-	+	6	46
-	+	19	49
-	+	29	48
-	+	39	48
-	+	7	32
-	+	7	82
-	+	7	32
-	+	7	32
-	+	11	5
-	+	14	37
-	+	7	101
-	+	7	32
-	+	14	15
-	+	12	19
 
 > ~/templates/country.html
 	"	14	19

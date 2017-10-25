@@ -46,10 +46,6 @@ def netherlands():
 def ninth():
   return render_template('19th.html'), 200
 
-@app.route('/century/18th')
-def eighth():
-  return render_template('18th.html'), 200
-
 @app.route('/century/15th')
 def fifth():
   return render_template('15th.html'), 200
@@ -168,12 +164,23 @@ def redcgogh():
 
 @app.route('/country/artist/DaVinci')
 def redcvinvi():
-  return redirect(url_for('vinci')), 301
+  return redirect(url_for('DaVinci')), 301
 
 @app.route('/country/artist/picasso')
 def redcpi():
   return redirect(url_for('picasso')), 301
 
+@app.route('/century/artist/picasso')
+def redcepi():
+  return redirect(url_for('picasso')), 301
+
+@app.route('/century/artist/gogh')
+def redcego():
+  return redirect(url_for('gogh')), 301
+
+@app.route('/century/artist/vinci')
+def redcevin():
+  return redirect(url_for('DaVinci')), 301
 
 
 @app.route('/config/')

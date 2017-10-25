@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, inital-scale=1">
+<link href="{{url_for('static',filename='bootstrap-3.3.5-dist/css/bootstrap.min.css')}}" rel="stylesheet"/>
+<link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet"/>
+<link href="{{url_for('static',filename='images/frame.png')}}" rel="icon"/>
+<script src={{url_for('static',filename='js/jquery-3.2.1.js')}}"></script>
+<script src="{{ url_for('static',filename='bootstrap-3.3.5-dist/js/bootstrap.min.js')}}"></script>
+<script src="{{ url_for('static',filename='js/cw1.js')}}"></script>
+<title>19th century</title>
+</head>
+<body>
+<div id="artisthead">
+<h1>15th century</h1
+</div>
+<p>He is a list of painters from the 19th century</p>
+<div id="painter">
+
+ <div class="col-md-4">
+  <div class="thumbnail">
+  <a href="/artist/gogh">
+   <img src="{{ url_for('static', filename='images/vincent.jpg')}}" alt="A Photograph of
+   famous artist vincent van gogh"/>
+   </a>
+   <div class="caption">
+    <p>Vinvent Van Gogh</p>
+   </div>
+  </div>
+ </div>
+ <div class="col-md-4">
+  <div class="thumbnail">
+   <a href="/artist/picasso">
+    <img src="{{ url_for('static', filename='images/pablo.jpg')}}" alt="A
+    photograph of pablo picasso"/>
+   </a>
+   <div class="caption">
+   <p>Pablo Picasso</p>
+  </div>
+ </div>
+</div> 
+</div>
+</body>
+</html>
