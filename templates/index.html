@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width", initial-scale=1">
   <title>Art Through The Ages</title>
   <link href="{{ url_for('static', filename='bootstrap-3.3.5-dist/css/bootstrap.min.css') }}" rel="stylesheet" />
-  <link href="{{ url_for('static', filename='style.css')}}" rel="stylesheet"/>
+  <link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"/>
-  <link href="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"/>
+  <script src="{{url_for('static', filename='js/jquery-3.2.1.js')}}"></script>
   <script src="{{url_for('static', filename='bootstrap-3.3.5-dist/js/bootstrap.min.js')}}></script>
-  <script src="{{ url_for('static', filename='cw1.js')}}"></script>
-  <link href="{{ url_for('static', filename='frame.png')}}" rel="icon"/>
+  <script src="{{ url_for('static', filename='js/cw1.js')}}"></script>
+  <link href="{{ url_for('static', filename='images/frame.png')}}" rel="icon"/>
  </head>
  <body>
   <div class="container-fluid">
@@ -28,8 +28,8 @@
 
     <div class="col-md-4">
      <div class="thumbnail">
-      <a href="{{ url_for('static', filename='g-painting1.jpg')}}" target="blank">
-       <img src="{{ url_for('static', filename='g-painting1.jpg')}}" alt="A Van Gogh Painting"/>
+      <a href="{{ url_for('static', filename='images/g-painting1.jpg')}}" target="blank">
+       <img src="{{ url_for('static', filename='images/g-painting1.jpg')}}" alt="A Van Gogh Painting"/>
         <div class="caption">
          <p> One of van Gogh more famous paintings</p>
         </div>
@@ -39,8 +39,8 @@
 
      <div class="col-md-4">
       <div class="thumbnail">
-       <a href="{{ url_for('static', filename='p-painting1.jpg')}}" target="blank">
-        <img src="{{ url_for('static', filename='p-painting1.jpg')}}" alt="A Pablo Piccaso Painting"/>
+       <a href="{{ url_for('static', filename='images/p-painting1.jpg')}}" target="blank">
+        <img src="{{ url_for('static', filename='images/p-painting1.jpg')}}" alt="A Pablo Piccaso Painting"/>
          <div class="caption">
           <p> An example of picassos cubism</p>
         </div>
@@ -50,8 +50,8 @@
 
     <div class="col-md-4">
      <div class="thumbnail">
-      <a href="{{ url_for('static', filename='v-painting1.jpg')}}" target="blank">
-       <img src="{{ url_for('static', filename='v-painting1.jpg')}}" alt="A Leonardo Da Vinci Painting"/>
+      <a href="{{ url_for('static', filename='images/v-painting1.jpg')}}" target="blank">
+       <img src="{{ url_for('static', filename='images/v-painting1.jpg')}}" alt="A Leonardo Da Vinci Painting"/>
         <div class="caption">
         <p> The mona lisa, regarded as the most famous painting in the world</p>
        </div>

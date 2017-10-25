@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, inital-scale=1.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Country</title>
-<link src="{{url_for('static',filename='style.css')}}" rel="stylesheet"/>
-<link src="{{url_for('static',filename='bootstrap-3.3.5-dist/css/bootstrap.min.css')}}" rel="stylesheet"/>
-<link src="{{url_for('static',filename='frame.png')}}" rel="icon">
+<link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet"/>
+<link href="{{url_for('static',filename='bootstrap-3.3.5-dist/css/bootstrap.min.css')}}" rel="stylesheet"/>
+<link href="{{url_for('static',filename='images/frame.png')}}" rel="icon">
+<script src="{{url_for('static',filename='js/jquery-3.2.1.js')}}"></script>
 <script src="{{url_for('static',filename='bootstrap-3.3.5-dist/js/bootstrap.min.js')}}"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 <h1>Country </h1>
 <h2> There are many paintings and painters from many countries arond the world, feel free to
 look some of the paintings or painters from the following countries</h2>
-<div id="nations">
+<div id="nations" class="container-fluid">
 
 <div class="col-md-4">
  <div class="thumbnail"><a href="/country/netherlands">
-  <img src="{{ url_for('static', filename='netherlands.png')}}" alt="Flag of Netherlands"/>
+  <img src="{{ url_for('static', filename='images/netherlands.png')}}" alt="Flag of Netherlands"/>
   </a>
    <div class="caption">
     <p> Many painters have from this noble nation of the dutch </p>
@@ -28,7 +28,7 @@ look some of the paintings or painters from the following countries</h2>
 
  <div class="col-md-4">
   <div class="thumbnail"><a href="/country/italy">
-   <img src="{{ url_for('static', filename='italy.png')}}" alt="Flag of Italy"/>
+   <img src="{{ url_for('static', filename='images/italy.png')}}" alt="Flag of Italy"/>
    </a>
     <div class="caption">
      <p> A nation of historic art and food, italy is a diamond of culture</p>
@@ -38,7 +38,7 @@ look some of the paintings or painters from the following countries</h2>
 
   <div class="col-md-4">
    <div class="thumbnail"><a href="/country/spain">
-    <img src="{{ url_for('static', filename='spain.png')}}" alt="Flag of Spain"/>
+    <img src="{{ url_for('static', filename='images/spain.png')}}" alt="Flag of Spain"/>
     </a>
      <div class="caption">
       <p> A nation of sun and art, spain is a beatiful nation</p>
