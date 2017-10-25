@@ -30,9 +30,9 @@ def vinci():
 def picasso():
   return render_template('picasso.html'), 200
 
-@app.route('/country/france')
-def france():
-  return render_template('france.html'), 200
+@app.route('/country/spain')
+def spain():
+  return render_template('spain.html'), 200
 
 @app.route('/country/italy')
 def italy():
@@ -161,6 +161,19 @@ def redLeoD():
 @app.route('/artist/LEONARDO DA VINCI')
 def redLEOD():
   return redirect(url_for('DaVinci')), 301
+
+@app.route('/country/artist/gogh')
+def redcgogh():
+  return redirect(url_for('gogh')), 301
+
+@app.route('/country/artist/DaVinci')
+def redcvinvi():
+  return redirect(url_for('vinci')), 301
+
+@app.route('/country/artist/picasso')
+def redcpi():
+  return redirect(url_for('picasso')), 301
+
 
 
 @app.route('/config/')

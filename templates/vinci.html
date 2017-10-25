@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Leonardo Da Vinci</title>
+<link href="{{url_for('static',filename='images/frame.png')}}" rel="icon"/>
+<link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet"/>
+<script src="{{url_for('static',filename='js/jquery-3.2.1.js')}}"></script>
+<script
+src="{{url_for('static',filename='bootstrap-3.3.5-dist/js/bootstrap.min.js')}}"></script>
+<link href="{{url_for('static',filename='bootstrap-3.3.5-dist/css/bootstrap.min.css')}}" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="c_header">Leonardo Da Vinic</h1>
+<p>Born Leonardo Di Ser Piero Da Vinci in 1452, Leonardo is well known through
+many fields of study such as science, mathematics, inventing and art. He is
+most well known for his painting, the mona lisa (pictured below).   </p>
+<img src="{{url_for('static', filename='images/leonardo.jpg')}}" alt="Leonardo
+Da Vinci" class="artist"/>
+<h2 class="c_header">Paintings</h2>
+<p>Below are two of his most famous works</p>
+<div class="paintings">
+ <div class="col-md-4">
+  <div class="thumbnail">
+   <img src="{{url_for('static', filename='images/v-painting1.jpg')}}" alt="A
+   Da Vinci painting"/>
+   <div class="caption">
+    <p>Leonardos "Mona Lisa"</p>
+   </div>
+  </div> 
+ </div>
+ <div class="col-md-4">
+  <div class="thumbnail">
+   <img src="{{url_for('static', filename='images/v-painting2.jpg')}}" alt="A
+   Van Gogh Painting"/>
+   <div class="caption">
+    <p> Da Vinci's painting of the last super</p>
+   </div> 
+  </div>
+ </div>
+</div> 
+</body>
+</html>

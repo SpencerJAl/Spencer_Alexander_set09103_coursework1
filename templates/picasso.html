@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pablo Picasso</title>
+<link href="{{url_for('static',filename='images/frame.png')}}" rel="icon"/>
+<link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet"/>
+<script src="{{url_for('static',filename='js/jquery-3.2.1.js')}}"></script>
+<script
+src="{{url_for('static',filename='bootstrap-3.3.5-dist/js/bootstrap.min.js')}}"></script>
+<link href="{{url_for('static',filename='bootstrap-3.3.5-dist/css/bootstrap.min.css')}}" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="c_header">Pablo Picasso</h1>
+<p>Born Pablo Diego Jose Francisco de Paula Juan Neopomunceno Maria de los
+Remedios Cipriano de la Santisima Trinidad Ruiz y Picasso in 1881, Pablo
+Picasso is one of the most influentil painters of the 19th/20th century. </p>
+<p> Most well know for this cubism style, picasso has since become one of the
+greatest artist of all time</p>
+<img src="{{url_for('static', filename='images/pablo.jpg')}}" alt="Pablo
+Picasso" class="artist"/>
+<h2 class="c_header">Paintings</h2>
+<p>Below are two of his most famous works</p>
+<div class="paintings">
+ <div class="col-md-4">
+  <div class="thumbnail">
+   <img src="{{url_for('static', filename='images/p-painting1.jpg')}}" alt="A
+   Picasso painting"/>
+   <div class="caption">
+    <p>An example of picasso's cubism</p>
+   </div>
+  </div> 
+ </div>
+ <div class="col-md-4">
+  <div class="thumbnail">
+   <img src="{{url_for('static', filename='images/p-painting2.jpg')}}" alt="A
+   picasso painting"/>
+   <div class="caption">
+    <p> A self portrait of picasso using his cubism art style</p>
+   </div> 
+  </div>
+ </div>
+</div> 
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Vincent Van Gogh</title>
+<link href="{{url_for('static',filename='images/frame.png')}}" rel="icon"/>
+<link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet"/>
+<script src="{{url_for('static',filename='js/jquery-3.2.1.js')}}"></script>
+<script
+src="{{url_for('static',filename='bootstrap-3.3.5-dist/js/bootstrap.min.js')}}"></script>
+<link href="{{url_for('static',filename='bootstrap-3.3.5-dist/css/bootstrap.min.css')}}" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="c_header">Vincent Van Goghy</h1>
+<p>Born Vincent Willem Van Gogh in 1853, Van Gogh is highly regarded as one of
+the most famous painters of all time. Creating over 2000 sepearte pieces Van
+Gogh had a trouble life, being critized over and over by those around him, he
+commited suicide in 1890 </p>
+<img src="{{url_for('static', filename='images/vincent.jpg')}}" alt="Vincent
+Van Gogh" class="artist"/>
+<h2 class="c_header">Paintings</h2>
+<p>Below are two of his most famous works</p>
+<div class="paintings">
+ <div class="col-md-4">
+  <div class="thumbnail">
+   <img src="{{url_for('static', filename='images/g-painting1.jpg')}}" alt="A
+   Van Gogh painting"/>
+   <div class="caption">
+    <p>Van Goghs painting called "Starry Night"</p>
+   </div>
+  </div> 
+ </div>
+ <div class="col-md-4">
+  <div class="thumbnail">
+   <img src="{{url_for('static', filename='images/g-painting2.jpg')}}" alt="A
+   Van Gogh Painting"/>
+   <div class="caption">
+    <p> Van Goghs famous sunflowers</p>
+   </div> 
+  </div>
+ </div>
+</div> 
+</body>
+</html>
