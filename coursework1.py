@@ -1,7 +1,7 @@
 import ConfigParser
 from flask import Flask, render_template, url_for, redirect
 app = Flask(__name__)
-
+#Redirects to pages is URL is correct or possible misspelled
 @app.route('/')
 def root():
   return render_template('index.html'), 200
@@ -182,7 +182,7 @@ def redcego():
 def redcevin():
   return redirect(url_for('DaVinci')), 301
 
-
+#Links config file and gets details
 @app.route('/config/')
 def config():
   str = []
@@ -191,7 +191,7 @@ def config():
   str.append('url:'+app.config['url'])
   str.append('ip_address:'+app.config['ip_address'])
   return '/t'.join(str)
-
+# adds config details to the current runing of this python file.
 def init(app):
    config = ConfigParser.ConfigParser()
    try:
@@ -204,12 +204,12 @@ def init(app):
      app.config['url'] = config.get("config", "url")
    except:
      print "Could not get config details: ", config.location
-
+# 404 Error handler
 @app.errorhandler(404)
 def page_not_found(error):
  return render_template('404.html'), 404
 
-
+# sets host IP address and port connection number
 if __name__ == "__main__":
  init(app)
  app.run(
